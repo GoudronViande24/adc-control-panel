@@ -1,0 +1,4 @@
+name: adc-control-panel
+
+dependencies:
+  - python=3.8
