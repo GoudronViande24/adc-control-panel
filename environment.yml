@@ -1,4 +1,4 @@
-name: adc-control-panel
+name: base
 
 dependencies:
   - python=3.8
