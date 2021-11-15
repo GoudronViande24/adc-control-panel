@@ -27,7 +27,7 @@ def oneMin(_loop = None,_data = None):
 
 	publicIP = get('https://api.ipify.org').content.decode('utf8')
 	s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-	s.connect(("8.8.8.8", 80))
+	s.connect(("1.1.1.1", 80))
 	privateIP = socket.gethostbyname(s.getsockname()[0])
 	s.close()
 
@@ -84,7 +84,7 @@ def keypress(key): # manage keypresses
 		live = int(os.popen("cat /sys/class/backlight/intel_backlight/brightness").readlines()[0])
 		max = 3000000
 		if live < max:
-			value = str(live + 20000)
+			value = str(live + 50000)
 			os.popen("echo "+value+" | tee /sys/class/backlight/intel_backlight/brightness").read()
 			right.set_text(value)
 		return
@@ -92,7 +92,7 @@ def keypress(key): # manage keypresses
 		live = int(os.popen("cat /sys/class/backlight/intel_backlight/brightness").readlines()[0])
 		min = 50000
 		if live > min:
-			value = str(live - 20000)
+			value = str(live - 50000)
 			os.popen("echo "+value+" | tee /sys/class/backlight/intel_backlight/brightness").read()
 			right.set_text(value)
 		return
