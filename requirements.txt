@@ -9,7 +9,6 @@ ping3==3.0.2
 platformdirs==2.4.0
 psutil==5.8.0
 py-mon==1.1.0
-pylint==2.11.1
 requests==2.26.0
 toml==0.10.2
 typing-extensions==4.0.0
