@@ -1,6 +1,8 @@
 # adc-control-panel
 Simple panel to run in a tty only laptop to monitor random things.
 
+[![CodeFactor](https://www.codefactor.io/repository/github/goudronviande24/adc-control-panel/badge)](https://www.codefactor.io/repository/github/goudronviande24/adc-control-panel)
+
 Close to no ressource usage and based on urwid to make a "GUI-like" interface.
 
 ## Preview
