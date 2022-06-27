@@ -3,7 +3,7 @@ certifi==2021.10.8
 charset-normalizer==2.0.12
 cx-Freeze==6.10
 idna==3.3
-importlib-metadata==4.11.1
+importlib-metadata==4.12.0
 isort==5.10.1
 lazy-object-proxy==1.7.1
 mccabe==0.7.0
