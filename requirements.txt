@@ -1,4 +1,4 @@
-astroid==2.9.3
+astroid==2.12.4
 certifi==2021.10.8
 charset-normalizer==2.0.12
 cx-Freeze==6.10
